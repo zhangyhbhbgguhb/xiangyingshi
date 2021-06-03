@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+header{
+    background-color: skyblue;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    /* justify-content: space-around; */
+    /* color: white; */
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+header div{
+    width: 100px;
+}
+header input{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    flex: 1;
+}
+header .q{
+    margin-right: 20px;
+}
+
+
+
+.yi{
+
+    width: 640px;
+    margin: 0 auto;
+}
+
+
+
+
+.banner{
+
+    height: 640px;
+overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    height: 100%;
+}
+
+
+.dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.dl dl{
+ 
+    width: 25%;
+
+    /* border:1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px; 
+
+}
+.dl dt{
+    margin-bottom: 10px;
+}
+
+
+.quanbu{
+   margin: 0 auto;
+    height: 40px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+
+    background-color: #1676FE;
+ 
+ 
+    color: white;
+}
+.quanbu h5{
+    font-weight: 900;
+    margin: 0 10px;
+}
+.quanbu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+ .rmkc{
+    margin: 0 auto;
+  
+    width: 640px;
+   
+} 
+.rmkc dl{
+    height: 100%;
+        width: 640px;
+    /* border:1px red solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.rmkc dl .w{
+    display: flex;
+    flex-direction: column;
+}
+.rmkc dl .w h2{
+    font-size: 15px;
+}
+.rmkc dl .w h3{
+    color: red;
+}
+.rmkc dl .w h3 span{
+    color: gray;
+    text-decoration:line-through;
+}
+.rmkc dl .e{
+    color: blue;
+}
+.rmkc dl .e h1{
+    display: flex;
+     align-items: center;
+    font-size: 180px;
+}
+.rmkc dl .e h1 span{
+    font-size: 20px;
+     flex-direction: column;
+
+}
+
+
+
+
+
+
+
+footer{
+	height: 60px;
+	width: 100%;
+	background: #f8fcff;
+	position: fixed;
+	bottom: 0;
+	display: 	flex;	
+}
+footer a{
+	text-decoration: none;	
+	display: flex;	
+	align-items: center;	
+	justify-content: center;	
+	width: 25%;
+	height: 100%;
+	color: black;
+	flex-direction: column;
+	/* border: 1px solid red; */
+}
+footer a span{
+		margin-top: 10px;
+}
+footer a:nth-of-type(1){
+		color: #1577ff;
+		font-weight: 600;
+}
